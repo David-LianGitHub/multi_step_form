@@ -55,7 +55,7 @@ function Step2({ plan , setPlan, planData, setPlanData, setStep } : Step2Props){
                             </p>
                         )}
                 </div>
-               <p className="text-[hsl(231,11%,63%)] mb-5 ">You have the option of monthly or yearly billing.</p>
+               <p className="text-[hsl(231,11%,63%)] md:mb-5 ">You have the option of monthly or yearly billing.</p>
             </div>   
 
 {/************************************************ Plan Cards *************************************************/}
