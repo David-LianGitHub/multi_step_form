@@ -73,7 +73,7 @@ function Step4({setSubmitted, plan, planData, formData, addOnData, setStep} :Ste
             {/********************************* Plan Cards *************************************************/}
            <div className="w-full mt-5 bg-[hsl(231,100%,99%)]  rounded-xl">
                
-                <div className="flex justify-between p-5 md:p-10 ">
+                <div className="flex justify-between p-5 lg:p-10 ">
                     <div>
                         <h1 className="text-xl font-bold"> {planData.name} </h1>
                         <button
