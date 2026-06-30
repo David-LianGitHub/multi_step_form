@@ -63,11 +63,11 @@ console.log(`${'Addon Data' + addOnData.map((item)=>item.title)}`)
          
 
 {/************************************************ Plan Cards *************************************************/}
-                <div className="grid mt-5 gap-5 ">
+                <div className="grid pb-7 mt-5 gap-5 ">
                         {
                             addOns.map((addOn)=>{
                                 return (
-                                    <div key={addOn.id}>
+                                    <div className=" sm:w-full" key={addOn.id}>
                                 
                                         <div  onClick={() => {
                                                                     // handleClick(addOn.id);
@@ -91,7 +91,7 @@ console.log(`${'Addon Data' + addOnData.map((item)=>item.title)}`)
                                                 className=" w-5 h-5 ml-3 lg:ml-5 hover:cursor-pointer" type="checkbox">
                                             
                                             </input>
-                                            <div className="flex w-full justify-between ml-4 items-center p-3">
+                                            <div className="flex flex-col md:flex-row w-full justify-between ml-4 items-start md:items-center p-3">
                                                 <div>
                                                         <h3 className="font-bold   lg:text-lg">{addOn.title}</h3>
                                                         <p>{addOn.description}</p>

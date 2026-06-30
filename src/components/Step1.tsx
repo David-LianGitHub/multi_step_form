@@ -138,7 +138,7 @@ function Step1({submitted, setSubmitted , formData,setFormData,setStep} : Step1P
 
 {/*********************************************** Phone Number *************************************************/}                
 
-                  <div className="grid mt-3 gap-1.5">
+                  <div className="grid pb-5 mt-3 gap-1.5">
                       <span className="flex justify-between">
                             <label className="font-bold">Phone Number</label>
 
@@ -155,7 +155,7 @@ function Step1({submitted, setSubmitted , formData,setFormData,setStep} : Step1P
                       
                       <input placeholder="e.g +1 234 567 890" 
                             className="px-4 w-full h-12 border-[hsl(229,24%,87%)]
-                                      border-2 rounded-xl" 
+                                      border-2 rounded-xl " 
 
                       
                               type="text"

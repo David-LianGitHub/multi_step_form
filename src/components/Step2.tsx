@@ -6,9 +6,6 @@ import proIcon from "../assets/images/icon-pro.svg";
 import type { Plan } from "../App";
 
 
-
-
-
 type Step2Props = {
   plan: string;
   setPlan: React.Dispatch<React.SetStateAction<string>>;
@@ -30,8 +27,6 @@ function Step2({ plan , setPlan, planData, setPlanData, setStep } : Step2Props){
 
   setStep(3);
 }
-
-
 
     const plans = [
         {id:1, name:"Arcade",monthly :9, yearly : 90, icon :arcadeIcon },
@@ -98,8 +93,8 @@ function Step2({ plan , setPlan, planData, setPlanData, setStep } : Step2Props){
 
 {/************************************************** Switch Button *************************************************/}
 
-            <div className="relative w-full">
-                 <div className="flex items-center justify-center w-full  text-white font-bold 
+            <div className="relative w-full pb-10">
+                 <div className="flex items-center  justify-center w-full  text-white font-bold 
                  bg-[hsl(218,100%,97%)] pt-3 pb-3 pl-5 pr-5 
                  rounded-xl right-0 hover:cursor-pointer bottom-0 gap-10">
                    <span className="text-black">Monthly</span>

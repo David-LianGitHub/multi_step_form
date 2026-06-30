@@ -57,7 +57,7 @@ const [addOnData, setAddOnData] = useState<AddOn[]>([]); /* TO store Data for St
     
   return (
    
-       <div className= "w-screen min-h-screen bg-slate-200 md:flex items-center justify-center">
+       <div className= "w-screen min-h-dvh bg-slate-200 md:flex items-center justify-center">
           <form  className="
                         //bg-black h-lvh
                       lg:bg-white
@@ -136,8 +136,8 @@ const [addOnData, setAddOnData] = useState<AddOn[]>([]); /* TO store Data for St
                   </div>
 {/***********************************************Content************************************/}
 
-                <div className="flex ml-5 mr-5 lg:ml-0 lg:mr-0 -mt-34 lg:mt-0 //bg-amber-100 w-full lg:w-[70%] min-h-150 items-center justify-center">
-                  <div className="flex lg:pt-0 pt-5 w-[80%] rounded-2xl lg:w-[85%]  -mt-20 lg:mt-0  bg-white min-h-150 border-0  justify-center">
+                <div className="flex ml-5 mr-5 lg:ml-0 lg:mr-0 -mt-34 lg:mt-0 //bg-amber-100 w-full lg:w-[70%] min-h-100 lg:min-h-150 items-center justify-center">
+                  <div className="flex lg:pt-0 pt-5 w-[80%] rounded-2xl lg:w-[85%]  -mt-20 lg:mt-0  bg-white min-h-100 lg:min-h-150 border-0  justify-center">
                     {step === 1 && <Step1 submitted={submitted} setSubmitted={setSubmitted} formData ={formData} setFormData={setFormData} setStep={setStep} />}
                     {step === 2 && <Step2 plan={plan} setPlan={setPlan} planData ={planData} setPlanData={setPlanData}
                                         setStep={setStep}/>}
