@@ -57,7 +57,7 @@ const [addOnData, setAddOnData] = useState<AddOn[]>([]); /* TO store Data for St
     
   return (
    
-       <div className= "w-screen min-h-dvh bg-slate-200 md:flex items-center justify-center">
+       <div className= "w-screen h-lvh bg-slate-200 md:flex items-center justify-center">
           <form  className="
                         //bg-black h-lvh
                       lg:bg-white

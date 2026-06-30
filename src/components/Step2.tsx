@@ -128,12 +128,13 @@ function Step2({ plan , setPlan, planData, setPlanData, setStep } : Step2Props){
             </div>
                  */}
 
-            <div className="absolute flex justify-center left-0 bottom-0 h-20 w-full bg-white">
+         
+             <div className="fixed lg:absolute flex justify-center left-0 bottom-0 h-20 w-full bg-white">
               <div className="relative w-[80%] lg:w-full flex items-center h-full">
                 <div className="flex items-center justify-between absolute lg:bottom-0 right-0 ">
-                        <button  type="button"  onClick={handleNext} className="text-white font-bold 
+                        <button  type="button" onClick={handleNext} className="text-white font-bold 
                             bg-[hsl(213,96%,18%)] pt-3 pb-3 pl-5 pr-5 
-                            rounded-xl right-0 hover:cursor-pointer bottom" >
+                            rounded-md lg:rounded-xl right-0 hover:cursor-pointer bottom" >
                                 Next Step
                         </button>
                   </div>
@@ -145,8 +146,7 @@ function Step2({ plan , setPlan, planData, setPlanData, setStep } : Step2Props){
                         </button>
                   </div>       
               </div>
-                
-            </div>   
+            </div>  
         </div>
 
         

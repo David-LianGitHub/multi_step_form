@@ -169,7 +169,7 @@ function Step1({submitted, setSubmitted , formData,setFormData,setStep} : Step1P
             </div>
 
 {/******************************************** Footer Next Step *************************************************/}                
-            <div className="absolute  left-0 bottom-0 h-20 w-full bg-white">
+            <div className="fixed lg:absolute  left-0 bottom-0 h-20 w-full bg-white">
               <div className="relative w-[90%] lg:w-full flex items-center h-full">
                 <div className="flex items-center justify-end absolute lg:bottom-0 right-0 ">
                             <button type="button" onClick={handleNext} className=" text-white font-bold 
